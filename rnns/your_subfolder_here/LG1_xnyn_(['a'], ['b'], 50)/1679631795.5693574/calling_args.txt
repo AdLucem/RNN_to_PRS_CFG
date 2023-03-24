@@ -1,0 +1,24 @@
+lang : xnyn
+lang_params : (['a'], ['b'], 50)
+hidden_dim : 100
+input_dim : 10
+num_layers : 3
+RNNClass : LSTM
+train_set_size : 20000
+validation_set_size : 2000
+iterations_per_learning_rate : 3
+learning_rates : (0.004, 0.002, 0.001, 0.0003, 0.004, 0.001, 0.0003)
+batch_size : 500
+check_validation_improvement_every : 10
+wee_sample_rate : 10
+wee_sample_cutoff : 50
+make_new : True
+find_any_rnn_for_lang : False
+transition_reject_threshold : 0.01
+extraction_time_limit : 1000
+initial_split_depth : 10
+starting_samples : None
+token_predictor_samples : 100
+token_predictor_cutoff : 50
+subfolder : your_subfolder_here
+langpref : LG1_

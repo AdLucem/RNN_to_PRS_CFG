@@ -1,0 +1,5 @@
+provided counterexamples are: None
+will make 100 sample attempts of length <= 50 before accepting any equivalence query
+obs table refinement took 0.01
+overall time since extraction init: 0.010737748998508323
+starting equivalence query for DFA of size 2 (DFA # 0 )

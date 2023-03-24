@@ -1,0 +1,240 @@
+=================
+=============
+going to print grammar: LG1
+cfg with name: xnbn_['a']_['b']
+nonterminals: ['S', 'X', 'Y']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('', 1)
+S     -->    ('XSY', 25.0)
+X     -->    ('a', 1)
+Y     -->    ('b', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG2
+cfg with name: xnbn_['a', 'b']_['c', 'd']
+nonterminals: ['S', 'X', 'Y']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('', 1)
+S     -->    ('XSY', 25.0)
+X     -->    ('a', 1)
+X     -->    ('b', 1)
+Y     -->    ('c', 1)
+Y     -->    ('d', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG3
+cfg with name: xnbn_['ab', 'cd']_['ef', 'gh']
+nonterminals: ['S', 'X', 'Y']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('', 1)
+S     -->    ('XSY', 25.0)
+X     -->    ('ab', 1)
+X     -->    ('cd', 1)
+Y     -->    ('ef', 1)
+Y     -->    ('gh', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG4
+cfg with name: xnbn_['ab']_['cd']
+nonterminals: ['S', 'X', 'Y']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('', 1)
+S     -->    ('XSY', 25.0)
+X     -->    ('ab', 1)
+Y     -->    ('cd', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG5
+cfg with name: xnbn_['abc']_['def']
+nonterminals: ['S', 'X', 'Y']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('', 1)
+S     -->    ('XSY', 25.0)
+X     -->    ('abc', 1)
+Y     -->    ('def', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG6
+cfg with name: xnbn_['ab', 'c']_['de', 'f']
+nonterminals: ['S', 'X', 'Y']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('', 1)
+S     -->    ('XSY', 15.0)
+X     -->    ('ab', 1)
+X     -->    ('c', 1)
+Y     -->    ('de', 1)
+Y     -->    ('f', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG7
+cfg with name: dyck_2
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+S     -->    (['p1', 'S', 'q1'], 0.25)
+S     -->    (['p2', 'S', 'q2'], 0.25)
+D     -->    (['p1', 'S', 'q1'], 1)
+D     -->    (['p2', 'S', 'q2'], 1)
+final output is not concatenated at end, i.e. if there is a derivation like ['p1','p2'] then it has length 2 and p1, p2 are treated as unique tokens
+=================
+=============
+going to print grammar: LG8
+cfg with name: dyck_3
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+S     -->    (['p1', 'S', 'q1'], 0.16666666666666666)
+S     -->    (['p2', 'S', 'q2'], 0.16666666666666666)
+S     -->    (['p3', 'S', 'q3'], 0.16666666666666666)
+D     -->    (['p1', 'S', 'q1'], 1)
+D     -->    (['p2', 'S', 'q2'], 1)
+D     -->    (['p3', 'S', 'q3'], 1)
+final output is not concatenated at end, i.e. if there is a derivation like ['p1','p2'] then it has length 2 and p1, p2 are treated as unique tokens
+=================
+=============
+going to print grammar: LG9
+cfg with name: dyck_4
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+S     -->    (['p1', 'S', 'q1'], 0.125)
+S     -->    (['p2', 'S', 'q2'], 0.125)
+S     -->    (['p3', 'S', 'q3'], 0.125)
+S     -->    (['p4', 'S', 'q4'], 0.125)
+D     -->    (['p1', 'S', 'q1'], 1)
+D     -->    (['p2', 'S', 'q2'], 1)
+D     -->    (['p3', 'S', 'q3'], 1)
+D     -->    (['p4', 'S', 'q4'], 1)
+final output is not concatenated at end, i.e. if there is a derivation like ['p1','p2'] then it has length 2 and p1, p2 are treated as unique tokens
+=================
+=============
+going to print grammar: LG10.2
+cfg with name: REdyck_[(['(a'], ['b)'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['(a', 'S', 'b)'], 0.5)
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+D     -->    (['(a', 'S', 'b)'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG10.4
+cfg with name: REdyck_[(['(abc'], ['xyz)'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['(abc', 'S', 'xyz)'], 0.5)
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+D     -->    (['(abc', 'S', 'xyz)'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG10.5
+cfg with name: REdyck_[(['(abcd'], ['wxyz)'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['(abcd', 'S', 'wxyz)'], 0.5)
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+D     -->    (['(abcd', 'S', 'wxyz)'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG11
+cfg with name: REdyck_[(['ab', 'c'], ['de', 'f'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['ab', 'S', 'de'], 0.125)
+S     -->    (['ab', 'S', 'f'], 0.125)
+S     -->    (['c', 'S', 'de'], 0.125)
+S     -->    (['c', 'S', 'f'], 0.125)
+S     -->    ([], 0.35)
+S     -->    (['S', 'S'], 0.3)
+D     -->    (['ab', 'S', 'de'], 1)
+D     -->    (['ab', 'S', 'f'], 1)
+D     -->    (['c', 'S', 'de'], 1)
+D     -->    (['c', 'S', 'f'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG12
+cfg with name: alternating_delimiter_2
+nonterminals: ['S', 'A', 'B']
+initial seq (probably a single nonterminal): S
+all rules:
+S     -->    ('A', 1)
+S     -->    ('B', 1)
+A     -->    ('(B)', 25.0)
+A     -->    ('', 1)
+B     -->    ('{A}', 25.0)
+B     -->    ('', 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG13
+cfg with name: REdyck_[(['('], [')'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['(', 'S', ')'], 0.4)
+S     -->    (['a'], 0.11666666666666665)
+S     -->    (['b'], 0.11666666666666665)
+S     -->    (['c'], 0.11666666666666665)
+S     -->    ([], 0.05)
+S     -->    (['S', 'S'], 0.25)
+D     -->    (['(', 'S', ')'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG14
+cfg with name: REdyck_[(['('], [')']), (['{'], ['}'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['(', 'S', ')'], 0.25)
+S     -->    (['{', 'S', '}'], 0.25)
+S     -->    (['a'], 0.09999999999999999)
+S     -->    (['b'], 0.09999999999999999)
+S     -->    (['c'], 0.09999999999999999)
+S     -->    ([], 0.05)
+S     -->    (['S', 'S'], 0.3)
+D     -->    (['(', 'S', ')'], 1)
+D     -->    (['{', 'S', '}'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.
+=================
+=============
+going to print grammar: LG15
+cfg with name: REdyck_[(['('], [')'])]
+nonterminals: ['S', 'D']
+initial seq (probably a single nonterminal): ['D']
+all rules:
+S     -->    (['(', 'S', ')'], 0.45)
+S     -->    (['abc'], 0.175)
+S     -->    (['d'], 0.175)
+S     -->    ([], 0.05)
+S     -->    (['S', 'S'], 0.3)
+D     -->    (['(', 'S', ')'], 1)
+final output is sampled as strings, i.e. if there is a derivation that looks like ['abc','ac'] then it is really just 'abcac' and contains 3 unique tokens.

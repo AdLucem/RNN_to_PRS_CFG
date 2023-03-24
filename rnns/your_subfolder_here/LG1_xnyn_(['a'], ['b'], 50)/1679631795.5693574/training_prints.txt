@@ -1,0 +1,414 @@
+training rnn with train set of size: 20000 , average length: 49.9162
+validation set size: 2000 , average length: 49.789
+first 10 samples in train set:
+ aaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbb
+aaaaaaaaaaabbbbbbbbbbb
+aabb
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+aaabbb
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaabbbbbbbbbbbbbbb
+aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb
+aaaaaaaaaaabbbbbbbbbbb
+num sequences in train set not in validation: 256 ( 1 % )
+num sequences in validation set not in train: 4 ( 0 % )
+training rnn: LG1_xnyn_(['a'], ['b'], 50)
+best validation loss is: inf
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 1 of 40 finished, that had loss: 1.07133 (e^loss: 2.91927) and took: 98.169 . (batch size: 500 seqs, total len: 24590 )
+small sample (up to 50 tokens):
+ 
+☆☆ reached new best validation & train loss: 0.9883229251301187 ☆☆ (e^loss= 2.6867248531881827 )
+time since start: 131.264381259
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 2 of 40 finished, that had loss: 0.98868 (e^loss: 2.6877) and took: 104.933 . (batch size: 500 seqs, total len: 25308 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 3 of 40 finished, that had loss: 0.86284 (e^loss: 2.36988) and took: 67.575 . (batch size: 500 seqs, total len: 22356 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 4 of 40 finished, that had loss: 0.61767 (e^loss: 1.8546) and took: 140.539 . (batch size: 500 seqs, total len: 27096 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 5 of 40 finished, that had loss: 0.46452 (e^loss: 1.59126) and took: 86.89 . (batch size: 500 seqs, total len: 25178 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 6 of 40 finished, that had loss: 0.42288 (e^loss: 1.52636) and took: 84.027 . (batch size: 500 seqs, total len: 23566 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 7 of 40 finished, that had loss: 0.4676 (e^loss: 1.59617) and took: 116.985 . (batch size: 500 seqs, total len: 25122 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 8 of 40 finished, that had loss: 0.39843 (e^loss: 1.48949) and took: 99.474 . (batch size: 500 seqs, total len: 24376 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 9 of 40 finished, that had loss: 0.38265 (e^loss: 1.46616) and took: 139.324 . (batch size: 500 seqs, total len: 27638 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 10 of 40 finished, that had loss: 0.39957 (e^loss: 1.49118) and took: 73.834 . (batch size: 500 seqs, total len: 24424 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 11 of 40 finished, that had loss: 0.37106 (e^loss: 1.44927) and took: 86.52 . (batch size: 500 seqs, total len: 24104 )
+small sample (up to 50 tokens):
+ b
+☆☆ reached new best validation & train loss: 0.33090743608461026 ☆☆ (e^loss= 1.3922309159989268 )
+time since start: 1167.2031617819998
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 12 of 40 finished, that had loss: 0.31426 (e^loss: 1.36925) and took: 118.383 . (batch size: 500 seqs, total len: 26178 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 13 of 40 finished, that had loss: 0.31753 (e^loss: 1.37374) and took: 100.74 . (batch size: 500 seqs, total len: 23820 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 14 of 40 finished, that had loss: 0.28487 (e^loss: 1.32959) and took: 107.805 . (batch size: 500 seqs, total len: 26416 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 15 of 40 finished, that had loss: 0.28997 (e^loss: 1.33638) and took: 80.582 . (batch size: 500 seqs, total len: 25050 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 16 of 40 finished, that had loss: 0.28258 (e^loss: 1.32655) and took: 111.577 . (batch size: 500 seqs, total len: 24600 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 17 of 40 finished, that had loss: 0.26845 (e^loss: 1.30794) and took: 90.864 . (batch size: 500 seqs, total len: 25282 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 18 of 40 finished, that had loss: 0.26576 (e^loss: 1.30443) and took: 106.769 . (batch size: 500 seqs, total len: 23252 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 19 of 40 finished, that had loss: 0.23633 (e^loss: 1.2666) and took: 77.212 . (batch size: 500 seqs, total len: 25846 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 20 of 40 finished, that had loss: 0.2331 (e^loss: 1.26251) and took: 99.457 . (batch size: 500 seqs, total len: 24098 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 21 of 40 finished, that had loss: 0.21215 (e^loss: 1.23633) and took: 116.0 . (batch size: 500 seqs, total len: 26562 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.2119360325544836 ☆☆ (e^loss= 1.2360688143850167 )
+time since start: 2212.775924776
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 22 of 40 finished, that had loss: 0.20731 (e^loss: 1.23037) and took: 96.398 . (batch size: 500 seqs, total len: 26004 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 23 of 40 finished, that had loss: 0.21385 (e^loss: 1.23844) and took: 80.263 . (batch size: 500 seqs, total len: 23678 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 24 of 40 finished, that had loss: 0.19236 (e^loss: 1.21211) and took: 105.474 . (batch size: 500 seqs, total len: 25908 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 25 of 40 finished, that had loss: 0.20431 (e^loss: 1.22668) and took: 64.434 . (batch size: 500 seqs, total len: 22382 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 26 of 40 finished, that had loss: 0.18027 (e^loss: 1.19754) and took: 95.213 . (batch size: 500 seqs, total len: 25452 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 27 of 40 finished, that had loss: 0.18525 (e^loss: 1.20351) and took: 106.155 . (batch size: 500 seqs, total len: 24522 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 28 of 40 finished, that had loss: 0.17191 (e^loss: 1.18757) and took: 92.128 . (batch size: 500 seqs, total len: 27474 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 29 of 40 finished, that had loss: 0.17199 (e^loss: 1.18766) and took: 109.36 . (batch size: 500 seqs, total len: 26508 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 30 of 40 finished, that had loss: 0.18065 (e^loss: 1.198) and took: 102.54 . (batch size: 500 seqs, total len: 24212 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 31 of 40 finished, that had loss: 0.17813 (e^loss: 1.19499) and took: 83.015 . (batch size: 500 seqs, total len: 24372 )
+small sample (up to 50 tokens):
+ aaaaabbbbb
+☆☆ reached new best validation & train loss: 0.17648809930541176 ☆☆ (e^loss= 1.193020228905734 )
+time since start: 3184.8251163110003
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 32 of 40 finished, that had loss: 0.18163 (e^loss: 1.19917) and took: 95.67 . (batch size: 500 seqs, total len: 24064 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 33 of 40 finished, that had loss: 0.18056 (e^loss: 1.19789) and took: 82.056 . (batch size: 500 seqs, total len: 24006 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 34 of 40 finished, that had loss: 0.16978 (e^loss: 1.18505) and took: 93.162 . (batch size: 500 seqs, total len: 26010 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 35 of 40 finished, that had loss: 0.17007 (e^loss: 1.18539) and took: 107.018 . (batch size: 500 seqs, total len: 25818 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 36 of 40 finished, that had loss: 0.17146 (e^loss: 1.18704) and took: 137.927 . (batch size: 500 seqs, total len: 25220 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 37 of 40 finished, that had loss: 0.1615 (e^loss: 1.17527) and took: 123.503 . (batch size: 500 seqs, total len: 27088 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 38 of 40 finished, that had loss: 0.1856 (e^loss: 1.20395) and took: 90.595 . (batch size: 500 seqs, total len: 22612 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 39 of 40 finished, that had loss: 0.17841 (e^loss: 1.19532) and took: 88.734 . (batch size: 500 seqs, total len: 23880 )
+lr 1 of 7 ( 0.004 ), iter. 1 of 3 , batch 40 of 40 finished, that had loss: 0.17328 (e^loss: 1.1892) and took: 95.374 . (batch size: 500 seqs, total len: 24252 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 1 of 40 finished, that had loss: 0.18189 (e^loss: 1.19948) and took: 66.796 . (batch size: 500 seqs, total len: 23014 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaabbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.16906058276856056 ☆☆ (e^loss= 1.184191878373359 )
+time since start: 4201.741607537
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 2 of 40 finished, that had loss: 0.17052 (e^loss: 1.18593) and took: 113.955 . (batch size: 500 seqs, total len: 24984 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 3 of 40 finished, that had loss: 0.16259 (e^loss: 1.17655) and took: 91.819 . (batch size: 500 seqs, total len: 26422 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 4 of 40 finished, that had loss: 0.16614 (e^loss: 1.18074) and took: 107.947 . (batch size: 500 seqs, total len: 25758 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 5 of 40 finished, that had loss: 0.169 (e^loss: 1.18412) and took: 85.575 . (batch size: 500 seqs, total len: 25188 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 6 of 40 finished, that had loss: 0.17113 (e^loss: 1.18664) and took: 112.806 . (batch size: 500 seqs, total len: 24366 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 7 of 40 finished, that had loss: 0.16368 (e^loss: 1.17784) and took: 132.522 . (batch size: 500 seqs, total len: 25814 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 8 of 40 finished, that had loss: 0.15936 (e^loss: 1.17276) and took: 103.094 . (batch size: 500 seqs, total len: 26582 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 9 of 40 finished, that had loss: 0.16695 (e^loss: 1.1817) and took: 117.427 . (batch size: 500 seqs, total len: 24800 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 10 of 40 finished, that had loss: 0.17076 (e^loss: 1.18621) and took: 89.921 . (batch size: 500 seqs, total len: 23750 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 11 of 40 finished, that had loss: 0.16466 (e^loss: 1.17899) and took: 91.168 . (batch size: 500 seqs, total len: 24896 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.1630957788466168 ☆☆ (e^loss= 1.177149430304028 )
+time since start: 5284.738065908
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 12 of 40 finished, that had loss: 0.15581 (e^loss: 1.1686) and took: 141.293 . (batch size: 500 seqs, total len: 26956 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 13 of 40 finished, that had loss: 0.16626 (e^loss: 1.18089) and took: 82.378 . (batch size: 500 seqs, total len: 24278 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 14 of 40 finished, that had loss: 0.16756 (e^loss: 1.18242) and took: 67.438 . (batch size: 500 seqs, total len: 23874 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 15 of 40 finished, that had loss: 0.16289 (e^loss: 1.1769) and took: 89.323 . (batch size: 500 seqs, total len: 24566 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 16 of 40 finished, that had loss: 0.16071 (e^loss: 1.17434) and took: 98.475 . (batch size: 500 seqs, total len: 25358 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 17 of 40 finished, that had loss: 0.15437 (e^loss: 1.16692) and took: 116.224 . (batch size: 500 seqs, total len: 26318 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 18 of 40 finished, that had loss: 0.15824 (e^loss: 1.17144) and took: 107.767 . (batch size: 500 seqs, total len: 25112 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 19 of 40 finished, that had loss: 0.16056 (e^loss: 1.17417) and took: 102.698 . (batch size: 500 seqs, total len: 24788 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 20 of 40 finished, that had loss: 0.16686 (e^loss: 1.18159) and took: 94.785 . (batch size: 500 seqs, total len: 23370 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 21 of 40 finished, that had loss: 0.1546 (e^loss: 1.1672) and took: 102.578 . (batch size: 500 seqs, total len: 25742 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabb
+☆☆ reached new best validation & train loss: 0.15757547830056168 ☆☆ (e^loss= 1.1706691147624442 )
+time since start: 6326.105264155
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 22 of 40 finished, that had loss: 0.15308 (e^loss: 1.16542) and took: 108.957 . (batch size: 500 seqs, total len: 26102 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 23 of 40 finished, that had loss: 0.16873 (e^loss: 1.1838) and took: 77.69 . (batch size: 500 seqs, total len: 22682 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 24 of 40 finished, that had loss: 0.15629 (e^loss: 1.16916) and took: 94.525 . (batch size: 500 seqs, total len: 24862 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 25 of 40 finished, that had loss: 0.16055 (e^loss: 1.17416) and took: 92.774 . (batch size: 500 seqs, total len: 24088 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 26 of 40 finished, that had loss: 0.15098 (e^loss: 1.16298) and took: 92.259 . (batch size: 500 seqs, total len: 25844 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 27 of 40 finished, that had loss: 0.15452 (e^loss: 1.1671) and took: 86.083 . (batch size: 500 seqs, total len: 25026 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 28 of 40 finished, that had loss: 0.15616 (e^loss: 1.16901) and took: 114.606 . (batch size: 500 seqs, total len: 24834 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 29 of 40 finished, that had loss: 0.15772 (e^loss: 1.17084) and took: 100.418 . (batch size: 500 seqs, total len: 24084 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 30 of 40 finished, that had loss: 0.15857 (e^loss: 1.17184) and took: 84.42 . (batch size: 500 seqs, total len: 23844 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 31 of 40 finished, that had loss: 0.15109 (e^loss: 1.1631) and took: 111.032 . (batch size: 500 seqs, total len: 25574 )
+small sample (up to 50 tokens):
+ aaaabbbb
+☆☆ reached new best validation & train loss: 0.1518544462948645 ☆☆ (e^loss= 1.16399080092761 )
+time since start: 7325.730571849
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 32 of 40 finished, that had loss: 0.14812 (e^loss: 1.15965) and took: 97.854 . (batch size: 500 seqs, total len: 25874 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 33 of 40 finished, that had loss: 0.1544 (e^loss: 1.16696) and took: 103.207 . (batch size: 500 seqs, total len: 24402 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 34 of 40 finished, that had loss: 0.1516 (e^loss: 1.1637) and took: 139.86 . (batch size: 500 seqs, total len: 24948 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 35 of 40 finished, that had loss: 0.15418 (e^loss: 1.1667) and took: 80.207 . (batch size: 500 seqs, total len: 24188 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 36 of 40 finished, that had loss: 0.15285 (e^loss: 1.16515) and took: 73.116 . (batch size: 500 seqs, total len: 24468 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 37 of 40 finished, that had loss: 0.15115 (e^loss: 1.16317) and took: 97.797 . (batch size: 500 seqs, total len: 24576 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 38 of 40 finished, that had loss: 0.13847 (e^loss: 1.14852) and took: 122.391 . (batch size: 500 seqs, total len: 27618 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 39 of 40 finished, that had loss: 0.15407 (e^loss: 1.16658) and took: 98.964 . (batch size: 500 seqs, total len: 23754 )
+lr 1 of 7 ( 0.004 ), iter. 2 of 3 , batch 40 of 40 finished, that had loss: 0.14403 (e^loss: 1.15492) and took: 121.405 . (batch size: 500 seqs, total len: 25620 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 1 of 40 finished, that had loss: 0.14576 (e^loss: 1.15692) and took: 77.101 . (batch size: 500 seqs, total len: 25212 )
+small sample (up to 50 tokens):
+ aaaabbbbbbbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.14669627212337844 ☆☆ (e^loss= 1.1580021920643164 )
+time since start: 8375.246130143
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 2 of 40 finished, that had loss: 0.14251 (e^loss: 1.15317) and took: 99.458 . (batch size: 500 seqs, total len: 26152 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 3 of 40 finished, that had loss: 0.14656 (e^loss: 1.15785) and took: 88.839 . (batch size: 500 seqs, total len: 24836 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 4 of 40 finished, that had loss: 0.15258 (e^loss: 1.16484) and took: 89.677 . (batch size: 500 seqs, total len: 23468 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 5 of 40 finished, that had loss: 0.14385 (e^loss: 1.15471) and took: 113.98 . (batch size: 500 seqs, total len: 25212 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 6 of 40 finished, that had loss: 0.14684 (e^loss: 1.15817) and took: 104.537 . (batch size: 500 seqs, total len: 24462 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 7 of 40 finished, that had loss: 0.14324 (e^loss: 1.154) and took: 86.62 . (batch size: 500 seqs, total len: 25196 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 8 of 40 finished, that had loss: 0.14151 (e^loss: 1.15202) and took: 73.334 . (batch size: 500 seqs, total len: 25528 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 9 of 40 finished, that had loss: 0.13647 (e^loss: 1.14623) and took: 109.486 . (batch size: 500 seqs, total len: 26526 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 10 of 40 finished, that had loss: 0.13924 (e^loss: 1.14941) and took: 96.965 . (batch size: 500 seqs, total len: 25638 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 11 of 40 finished, that had loss: 0.1373 (e^loss: 1.14718) and took: 90.632 . (batch size: 500 seqs, total len: 26100 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaabbbbbbb
+☆☆ reached new best validation & train loss: 0.14139505382709766 ☆☆ (e^loss= 1.1518796125603763 )
+time since start: 9364.23279324
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 12 of 40 finished, that had loss: 0.145 (e^loss: 1.15604) and took: 88.579 . (batch size: 500 seqs, total len: 24250 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 13 of 40 finished, that had loss: 0.14593 (e^loss: 1.15711) and took: 78.995 . (batch size: 500 seqs, total len: 23896 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 14 of 40 finished, that had loss: 0.14081 (e^loss: 1.15121) and took: 85.049 . (batch size: 500 seqs, total len: 24810 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 15 of 40 finished, that had loss: 0.14019 (e^loss: 1.15049) and took: 129.637 . (batch size: 500 seqs, total len: 24782 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 16 of 40 finished, that had loss: 0.14368 (e^loss: 1.15451) and took: 86.858 . (batch size: 500 seqs, total len: 23726 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 17 of 40 finished, that had loss: 0.14226 (e^loss: 1.15288) and took: 143.977 . (batch size: 500 seqs, total len: 24224 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 18 of 40 finished, that had loss: 0.14722 (e^loss: 1.15861) and took: 71.862 . (batch size: 500 seqs, total len: 22898 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 19 of 40 finished, that had loss: 0.13526 (e^loss: 1.14483) and took: 118.084 . (batch size: 500 seqs, total len: 25744 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 20 of 40 finished, that had loss: 0.13553 (e^loss: 1.14515) and took: 131.124 . (batch size: 500 seqs, total len: 25314 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 21 of 40 finished, that had loss: 0.13522 (e^loss: 1.14479) and took: 103.147 . (batch size: 500 seqs, total len: 25336 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.13532381208520033 ☆☆ (e^loss= 1.1449074592053035 )
+time since start: 10441.615695908
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 22 of 40 finished, that had loss: 0.13245 (e^loss: 1.14162) and took: 118.379 . (batch size: 500 seqs, total len: 25648 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 23 of 40 finished, that had loss: 0.13672 (e^loss: 1.14651) and took: 90.075 . (batch size: 500 seqs, total len: 24676 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 24 of 40 finished, that had loss: 0.1368 (e^loss: 1.1466) and took: 98.138 . (batch size: 500 seqs, total len: 24426 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 25 of 40 finished, that had loss: 0.13486 (e^loss: 1.14438) and took: 88.031 . (batch size: 500 seqs, total len: 24758 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 26 of 40 finished, that had loss: 0.13066 (e^loss: 1.13958) and took: 91.242 . (batch size: 500 seqs, total len: 25516 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 27 of 40 finished, that had loss: 0.13626 (e^loss: 1.14598) and took: 97.887 . (batch size: 500 seqs, total len: 23968 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 28 of 40 finished, that had loss: 0.12913 (e^loss: 1.13784) and took: 86.646 . (batch size: 500 seqs, total len: 25506 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 29 of 40 finished, that had loss: 0.13186 (e^loss: 1.14095) and took: 84.604 . (batch size: 500 seqs, total len: 24664 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 30 of 40 finished, that had loss: 0.12911 (e^loss: 1.13782) and took: 88.814 . (batch size: 500 seqs, total len: 24936 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 31 of 40 finished, that had loss: 0.12482 (e^loss: 1.13295) and took: 135.696 . (batch size: 500 seqs, total len: 26000 )
+small sample (up to 50 tokens):
+ abbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.12661582713038977 ☆☆ (e^loss= 1.1349809051442465 )
+time since start: 11457.109040936
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 32 of 40 finished, that had loss: 0.12761 (e^loss: 1.13611) and took: 80.08 . (batch size: 500 seqs, total len: 25016 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 33 of 40 finished, that had loss: 0.12845 (e^loss: 1.13706) and took: 83.001 . (batch size: 500 seqs, total len: 24432 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 34 of 40 finished, that had loss: 0.12463 (e^loss: 1.13273) and took: 87.003 . (batch size: 500 seqs, total len: 25000 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 35 of 40 finished, that had loss: 0.12474 (e^loss: 1.13285) and took: 115.734 . (batch size: 500 seqs, total len: 24884 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 36 of 40 finished, that had loss: 0.11601 (e^loss: 1.12301) and took: 114.849 . (batch size: 500 seqs, total len: 27056 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 37 of 40 finished, that had loss: 0.11752 (e^loss: 1.12471) and took: 112.887 . (batch size: 500 seqs, total len: 26078 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 38 of 40 finished, that had loss: 0.12472 (e^loss: 1.13283) and took: 82.426 . (batch size: 500 seqs, total len: 23830 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 39 of 40 finished, that had loss: 0.11828 (e^loss: 1.12556) and took: 95.357 . (batch size: 500 seqs, total len: 25472 )
+lr 1 of 7 ( 0.004 ), iter. 3 of 3 , batch 40 of 40 finished, that had loss: 0.1256 (e^loss: 1.13383) and took: 68.987 . (batch size: 500 seqs, total len: 23148 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 1 of 40 finished, that had loss: 0.11924 (e^loss: 1.12664) and took: 97.775 . (batch size: 500 seqs, total len: 24894 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+☆☆ reached new best validation & train loss: 0.12613373420128132 ☆☆ (e^loss= 1.1344338707465058 )
+time since start: 12431.262012950001
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 2 of 40 finished, that had loss: 0.11929 (e^loss: 1.1267) and took: 129.016 . (batch size: 500 seqs, total len: 27022 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 3 of 40 finished, that had loss: 0.12876 (e^loss: 1.13742) and took: 80.615 . (batch size: 500 seqs, total len: 23576 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 4 of 40 finished, that had loss: 0.11352 (e^loss: 1.12022) and took: 104.354 . (batch size: 500 seqs, total len: 26372 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 5 of 40 finished, that had loss: 0.11177 (e^loss: 1.11825) and took: 98.196 . (batch size: 500 seqs, total len: 26876 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 6 of 40 finished, that had loss: 0.11499 (e^loss: 1.12187) and took: 121.883 . (batch size: 500 seqs, total len: 26254 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 7 of 40 finished, that had loss: 0.116 (e^loss: 1.123) and took: 90.055 . (batch size: 500 seqs, total len: 25862 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 8 of 40 finished, that had loss: 0.1144 (e^loss: 1.1212) and took: 106.956 . (batch size: 500 seqs, total len: 25762 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 9 of 40 finished, that had loss: 0.11352 (e^loss: 1.12022) and took: 94.226 . (batch size: 500 seqs, total len: 25544 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 10 of 40 finished, that had loss: 0.11572 (e^loss: 1.12269) and took: 116.67 . (batch size: 500 seqs, total len: 24616 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 11 of 40 finished, that had loss: 0.11718 (e^loss: 1.12432) and took: 91.411 . (batch size: 500 seqs, total len: 24388 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaabbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.11482815529465541 ☆☆ (e^loss= 1.1216806661254755 )
+time since start: 13500.964071334
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 12 of 40 finished, that had loss: 0.12402 (e^loss: 1.13203) and took: 79.011 . (batch size: 500 seqs, total len: 22520 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 13 of 40 finished, that had loss: 0.11696 (e^loss: 1.12408) and took: 86.986 . (batch size: 500 seqs, total len: 23934 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 14 of 40 finished, that had loss: 0.11798 (e^loss: 1.12522) and took: 60.695 . (batch size: 500 seqs, total len: 23318 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 15 of 40 finished, that had loss: 0.1074 (e^loss: 1.11338) and took: 105.339 . (batch size: 500 seqs, total len: 26336 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 16 of 40 finished, that had loss: 0.11287 (e^loss: 1.11949) and took: 112.542 . (batch size: 500 seqs, total len: 24458 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 17 of 40 finished, that had loss: 0.11177 (e^loss: 1.11825) and took: 105.888 . (batch size: 500 seqs, total len: 24728 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 18 of 40 finished, that had loss: 0.11709 (e^loss: 1.12422) and took: 85.308 . (batch size: 500 seqs, total len: 22818 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 19 of 40 finished, that had loss: 0.10343 (e^loss: 1.10897) and took: 140.965 . (batch size: 500 seqs, total len: 26538 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 20 of 40 finished, that had loss: 0.10393 (e^loss: 1.10952) and took: 113.39 . (batch size: 500 seqs, total len: 26290 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 21 of 40 finished, that had loss: 0.10614 (e^loss: 1.11197) and took: 101.317 . (batch size: 500 seqs, total len: 25432 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.10689787661985374 ☆☆ (e^loss= 1.1128206036746786 )
+time since start: 14528.432483933
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 22 of 40 finished, that had loss: 0.10649 (e^loss: 1.11237) and took: 93.966 . (batch size: 500 seqs, total len: 25160 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 23 of 40 finished, that had loss: 0.10109 (e^loss: 1.10638) and took: 94.519 . (batch size: 500 seqs, total len: 26682 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 24 of 40 finished, that had loss: 0.10298 (e^loss: 1.10847) and took: 78.13 . (batch size: 500 seqs, total len: 25804 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 25 of 40 finished, that had loss: 0.10694 (e^loss: 1.11287) and took: 79.213 . (batch size: 500 seqs, total len: 24240 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 26 of 40 finished, that had loss: 0.10217 (e^loss: 1.10757) and took: 108.26 . (batch size: 500 seqs, total len: 25462 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 27 of 40 finished, that had loss: 0.10906 (e^loss: 1.11523) and took: 61.434 . (batch size: 500 seqs, total len: 23246 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 28 of 40 finished, that had loss: 0.09934 (e^loss: 1.10445) and took: 136.982 . (batch size: 500 seqs, total len: 25988 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 29 of 40 finished, that had loss: 0.1003 (e^loss: 1.10551) and took: 104.224 . (batch size: 500 seqs, total len: 25426 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 30 of 40 finished, that had loss: 0.10412 (e^loss: 1.10973) and took: 95.679 . (batch size: 500 seqs, total len: 24032 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 31 of 40 finished, that had loss: 0.10391 (e^loss: 1.1095) and took: 91.041 . (batch size: 500 seqs, total len: 23952 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.09991345565841865 ☆☆ (e^loss= 1.1050752759249112 )
+time since start: 15508.057348337
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 32 of 40 finished, that had loss: 0.10103 (e^loss: 1.10631) and took: 76.927 . (batch size: 500 seqs, total len: 24610 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 33 of 40 finished, that had loss: 0.09929 (e^loss: 1.10439) and took: 93.96 . (batch size: 500 seqs, total len: 25026 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 34 of 40 finished, that had loss: 0.10109 (e^loss: 1.10638) and took: 98.028 . (batch size: 500 seqs, total len: 24138 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 35 of 40 finished, that had loss: 0.09413 (e^loss: 1.09871) and took: 92.85 . (batch size: 500 seqs, total len: 26378 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 36 of 40 finished, that had loss: 0.10189 (e^loss: 1.10727) and took: 98.025 . (batch size: 500 seqs, total len: 23544 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 37 of 40 finished, that had loss: 0.10106 (e^loss: 1.10634) and took: 93.735 . (batch size: 500 seqs, total len: 23782 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 38 of 40 finished, that had loss: 0.10754 (e^loss: 1.11354) and took: 116.127 . (batch size: 500 seqs, total len: 22180 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 39 of 40 finished, that had loss: 0.09254 (e^loss: 1.09696) and took: 100.304 . (batch size: 500 seqs, total len: 26402 )
+lr 2 of 7 ( 0.002 ), iter. 1 of 3 , batch 40 of 40 finished, that had loss: 0.09697 (e^loss: 1.10182) and took: 104.749 . (batch size: 500 seqs, total len: 24734 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 1 of 40 finished, that had loss: 0.08938 (e^loss: 1.0935) and took: 103.708 . (batch size: 500 seqs, total len: 27508 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.09587293750046627 ☆☆ (e^loss= 1.100619207681358 )
+time since start: 16522.740777984
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 2 of 40 finished, that had loss: 0.09606 (e^loss: 1.10082) and took: 85.445 . (batch size: 500 seqs, total len: 24756 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 3 of 40 finished, that had loss: 0.0969 (e^loss: 1.10175) and took: 97.219 . (batch size: 500 seqs, total len: 24502 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 4 of 40 finished, that had loss: 0.09114 (e^loss: 1.09543) and took: 122.506 . (batch size: 500 seqs, total len: 26030 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 5 of 40 finished, that had loss: 0.09395 (e^loss: 1.09851) and took: 76.829 . (batch size: 500 seqs, total len: 25220 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 6 of 40 finished, that had loss: 0.09032 (e^loss: 1.09453) and took: 85.691 . (batch size: 500 seqs, total len: 26114 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 7 of 40 finished, that had loss: 0.09681 (e^loss: 1.10165) and took: 100.965 . (batch size: 500 seqs, total len: 23918 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 8 of 40 finished, that had loss: 0.09583 (e^loss: 1.10057) and took: 114.52 . (batch size: 500 seqs, total len: 23928 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 9 of 40 finished, that had loss: 0.09222 (e^loss: 1.09661) and took: 87.725 . (batch size: 500 seqs, total len: 25216 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 10 of 40 finished, that had loss: 0.09375 (e^loss: 1.09828) and took: 80.041 . (batch size: 500 seqs, total len: 24422 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 11 of 40 finished, that had loss: 0.08738 (e^loss: 1.09131) and took: 113.669 . (batch size: 500 seqs, total len: 26952 )
+small sample (up to 50 tokens):
+ aaaaaaaaaabbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.09071750271334192 ☆☆ (e^loss= 1.0949596384360205 )
+time since start: 17523.683659099
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 12 of 40 finished, that had loss: 0.09205 (e^loss: 1.09642) and took: 81.057 . (batch size: 500 seqs, total len: 24774 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 13 of 40 finished, that had loss: 0.0908 (e^loss: 1.09506) and took: 101.466 . (batch size: 500 seqs, total len: 25204 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 14 of 40 finished, that had loss: 0.09136 (e^loss: 1.09566) and took: 87.288 . (batch size: 500 seqs, total len: 24788 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 15 of 40 finished, that had loss: 0.09727 (e^loss: 1.10216) and took: 70.551 . (batch size: 500 seqs, total len: 22900 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 16 of 40 finished, that had loss: 0.09102 (e^loss: 1.09529) and took: 101.982 . (batch size: 500 seqs, total len: 24738 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 17 of 40 finished, that had loss: 0.08959 (e^loss: 1.09372) and took: 103.84 . (batch size: 500 seqs, total len: 25256 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 18 of 40 finished, that had loss: 0.09127 (e^loss: 1.09557) and took: 78.267 . (batch size: 500 seqs, total len: 24498 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 19 of 40 finished, that had loss: 0.0937 (e^loss: 1.09823) and took: 74.444 . (batch size: 500 seqs, total len: 23454 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 20 of 40 finished, that had loss: 0.0885 (e^loss: 1.09253) and took: 115.687 . (batch size: 500 seqs, total len: 25364 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 21 of 40 finished, that had loss: 0.08798 (e^loss: 1.09197) and took: 103.193 . (batch size: 500 seqs, total len: 25578 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb
+☆☆ reached new best validation & train loss: 0.08802988165444356 ☆☆ (e^loss= 1.0920207529274466 )
+time since start: 18477.972912409998
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 22 of 40 finished, that had loss: 0.08614 (e^loss: 1.08996) and took: 114.663 . (batch size: 500 seqs, total len: 26210 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 23 of 40 finished, that had loss: 0.09069 (e^loss: 1.09493) and took: 91.182 . (batch size: 500 seqs, total len: 24302 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 24 of 40 finished, that had loss: 0.0868 (e^loss: 1.09068) and took: 95.866 . (batch size: 500 seqs, total len: 25662 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 25 of 40 finished, that had loss: 0.08703 (e^loss: 1.09093) and took: 138.127 . (batch size: 500 seqs, total len: 25754 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 26 of 40 finished, that had loss: 0.08881 (e^loss: 1.09287) and took: 129.998 . (batch size: 500 seqs, total len: 24830 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 27 of 40 finished, that had loss: 0.09117 (e^loss: 1.09546) and took: 76.86 . (batch size: 500 seqs, total len: 23892 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 28 of 40 finished, that had loss: 0.09154 (e^loss: 1.09586) and took: 102.099 . (batch size: 500 seqs, total len: 23782 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 29 of 40 finished, that had loss: 0.09252 (e^loss: 1.09694) and took: 63.647 . (batch size: 500 seqs, total len: 23210 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 30 of 40 finished, that had loss: 0.08915 (e^loss: 1.09325) and took: 82.546 . (batch size: 500 seqs, total len: 24490 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 31 of 40 finished, that had loss: 0.08636 (e^loss: 1.0902) and took: 85.79 . (batch size: 500 seqs, total len: 25418 )
+small sample (up to 50 tokens):
+ aaaabbbbb
+☆☆ reached new best validation & train loss: 0.08663033148155624 ☆☆ (e^loss= 1.0904934840878684 )
+time since start: 19494.680651363997
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 32 of 40 finished, that had loss: 0.08646 (e^loss: 1.0903) and took: 85.882 . (batch size: 500 seqs, total len: 25334 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 33 of 40 finished, that had loss: 0.08551 (e^loss: 1.08927) and took: 117.658 . (batch size: 500 seqs, total len: 25728 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 34 of 40 finished, that had loss: 0.08264 (e^loss: 1.08615) and took: 114.454 . (batch size: 500 seqs, total len: 26730 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 35 of 40 finished, that had loss: 0.08565 (e^loss: 1.08942) and took: 132.817 . (batch size: 500 seqs, total len: 25588 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 36 of 40 finished, that had loss: 0.08865 (e^loss: 1.0927) and took: 88.423 . (batch size: 500 seqs, total len: 24388 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 37 of 40 finished, that had loss: 0.08867 (e^loss: 1.09272) and took: 85.079 . (batch size: 500 seqs, total len: 24300 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 38 of 40 finished, that had loss: 0.08644 (e^loss: 1.09028) and took: 72.489 . (batch size: 500 seqs, total len: 24896 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 39 of 40 finished, that had loss: 0.08655 (e^loss: 1.0904) and took: 88.196 . (batch size: 500 seqs, total len: 24944 )
+lr 2 of 7 ( 0.002 ), iter. 2 of 3 , batch 40 of 40 finished, that had loss: 0.08977 (e^loss: 1.09393) and took: 94.296 . (batch size: 500 seqs, total len: 23746 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 1 of 40 finished, that had loss: 0.08709 (e^loss: 1.09099) and took: 99.221 . (batch size: 500 seqs, total len: 24754 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+☆☆ reached new best validation & train loss: 0.08563075489226028 ☆☆ (e^loss= 1.0894039969340346 )
+time since start: 20509.194797385997
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 2 of 40 finished, that had loss: 0.0868 (e^loss: 1.09068) and took: 98.755 . (batch size: 500 seqs, total len: 24682 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 3 of 40 finished, that had loss: 0.08921 (e^loss: 1.09331) and took: 125.751 . (batch size: 500 seqs, total len: 23740 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 4 of 40 finished, that had loss: 0.08724 (e^loss: 1.09116) and took: 88.706 . (batch size: 500 seqs, total len: 24470 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 5 of 40 finished, that had loss: 0.08572 (e^loss: 1.0895) and took: 104.715 . (batch size: 500 seqs, total len: 24944 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 6 of 40 finished, that had loss: 0.08159 (e^loss: 1.08501) and took: 87.604 . (batch size: 500 seqs, total len: 26676 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 7 of 40 finished, that had loss: 0.08521 (e^loss: 1.08894) and took: 79.932 . (batch size: 500 seqs, total len: 25120 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 8 of 40 finished, that had loss: 0.08032 (e^loss: 1.08364) and took: 105.465 . (batch size: 500 seqs, total len: 27112 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 9 of 40 finished, that had loss: 0.08256 (e^loss: 1.08607) and took: 98.448 . (batch size: 500 seqs, total len: 26102 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 10 of 40 finished, that had loss: 0.08503 (e^loss: 1.08875) and took: 103.637 . (batch size: 500 seqs, total len: 25070 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 11 of 40 finished, that had loss: 0.08518 (e^loss: 1.08891) and took: 97.646 . (batch size: 500 seqs, total len: 24992 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.08520658762738663 ☆☆ (e^loss= 1.0889420054080805 )
+time since start: 21535.994466614
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 12 of 40 finished, that had loss: 0.08406 (e^loss: 1.08769) and took: 118.344 . (batch size: 500 seqs, total len: 25432 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 13 of 40 finished, that had loss: 0.08355 (e^loss: 1.08714) and took: 107.831 . (batch size: 500 seqs, total len: 25642 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 14 of 40 finished, that had loss: 0.08833 (e^loss: 1.09235) and took: 101.379 . (batch size: 500 seqs, total len: 23684 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 15 of 40 finished, that had loss: 0.08413 (e^loss: 1.08778) and took: 91.545 . (batch size: 500 seqs, total len: 25350 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 16 of 40 finished, that had loss: 0.08519 (e^loss: 1.08892) and took: 76.921 . (batch size: 500 seqs, total len: 24830 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 17 of 40 finished, that had loss: 0.08849 (e^loss: 1.09253) and took: 111.089 . (batch size: 500 seqs, total len: 23710 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 18 of 40 finished, that had loss: 0.08433 (e^loss: 1.08799) and took: 89.837 . (batch size: 500 seqs, total len: 25126 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 19 of 40 finished, that had loss: 0.0858 (e^loss: 1.08959) and took: 75.865 . (batch size: 500 seqs, total len: 24558 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 20 of 40 finished, that had loss: 0.08681 (e^loss: 1.09069) and took: 89.863 . (batch size: 500 seqs, total len: 24160 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 21 of 40 finished, that had loss: 0.08739 (e^loss: 1.09132) and took: 84.869 . (batch size: 500 seqs, total len: 23926 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaabbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.08468362569137676 ☆☆ (e^loss= 1.0883726790697072 )
+time since start: 22519.604059713998
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 22 of 40 finished, that had loss: 0.08782 (e^loss: 1.09179) and took: 95.376 . (batch size: 500 seqs, total len: 23780 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 23 of 40 finished, that had loss: 0.0866 (e^loss: 1.09046) and took: 106.457 . (batch size: 500 seqs, total len: 24250 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 24 of 40 finished, that had loss: 0.08439 (e^loss: 1.08805) and took: 120.123 . (batch size: 500 seqs, total len: 25044 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 25 of 40 finished, that had loss: 0.07982 (e^loss: 1.0831) and took: 108.358 . (batch size: 500 seqs, total len: 26996 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 26 of 40 finished, that had loss: 0.08664 (e^loss: 1.0905) and took: 125.713 . (batch size: 500 seqs, total len: 24164 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 27 of 40 finished, that had loss: 0.08468 (e^loss: 1.08837) and took: 80.694 . (batch size: 500 seqs, total len: 24854 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 28 of 40 finished, that had loss: 0.08381 (e^loss: 1.08743) and took: 93.163 . (batch size: 500 seqs, total len: 25154 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 29 of 40 finished, that had loss: 0.08444 (e^loss: 1.08811) and took: 103.47 . (batch size: 500 seqs, total len: 24948 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 30 of 40 finished, that had loss: 0.08549 (e^loss: 1.08925) and took: 86.417 . (batch size: 500 seqs, total len: 24490 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 31 of 40 finished, that had loss: 0.08834 (e^loss: 1.09236) and took: 91.737 . (batch size: 500 seqs, total len: 23454 )
+small sample (up to 50 tokens):
+ aabb
+☆☆ reached new best validation & train loss: 0.08422148596428569 ☆☆ (e^loss= 1.0878698150225052 )
+time since start: 23566.564269754
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 32 of 40 finished, that had loss: 0.08184 (e^loss: 1.08529) and took: 89.721 . (batch size: 500 seqs, total len: 26020 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 33 of 40 finished, that had loss: 0.08578 (e^loss: 1.08957) and took: 70.41 . (batch size: 500 seqs, total len: 24334 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 34 of 40 finished, that had loss: 0.08739 (e^loss: 1.09132) and took: 97.785 . (batch size: 500 seqs, total len: 23710 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 35 of 40 finished, that had loss: 0.08472 (e^loss: 1.08841) and took: 112.788 . (batch size: 500 seqs, total len: 24798 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 36 of 40 finished, that had loss: 0.08233 (e^loss: 1.08581) and took: 90.754 . (batch size: 500 seqs, total len: 25684 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 37 of 40 finished, that had loss: 0.07969 (e^loss: 1.08295) and took: 95.061 . (batch size: 500 seqs, total len: 26796 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 38 of 40 finished, that had loss: 0.08259 (e^loss: 1.08609) and took: 106.58 . (batch size: 500 seqs, total len: 25562 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 39 of 40 finished, that had loss: 0.08368 (e^loss: 1.08728) and took: 136.627 . (batch size: 500 seqs, total len: 25100 )
+lr 2 of 7 ( 0.002 ), iter. 3 of 3 , batch 40 of 40 finished, that had loss: 0.08367 (e^loss: 1.08727) and took: 71.481 . (batch size: 500 seqs, total len: 25106 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 1 of 40 finished, that had loss: 0.0855 (e^loss: 1.08927) and took: 79.16 . (batch size: 500 seqs, total len: 24384 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbb
+☹☹ validation and train not improved here ☹☹
+time since start: 24552.248013035998
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 2 of 40 finished, that had loss: 0.10848 (e^loss: 1.11458) and took: 117.797 . (batch size: 500 seqs, total len: 26290 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 3 of 40 finished, that had loss: 0.08525 (e^loss: 1.08899) and took: 96.392 . (batch size: 500 seqs, total len: 24576 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 4 of 40 finished, that had loss: 0.09594 (e^loss: 1.1007) and took: 90.313 . (batch size: 500 seqs, total len: 24270 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 5 of 40 finished, that had loss: 0.0916 (e^loss: 1.09592) and took: 87.116 . (batch size: 500 seqs, total len: 24608 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 6 of 40 finished, that had loss: 0.08943 (e^loss: 1.09355) and took: 62.81 . (batch size: 500 seqs, total len: 23238 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 7 of 40 finished, that had loss: 0.08824 (e^loss: 1.09225) and took: 72.037 . (batch size: 500 seqs, total len: 23454 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 8 of 40 finished, that had loss: 0.0868 (e^loss: 1.09068) and took: 69.182 . (batch size: 500 seqs, total len: 24090 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 9 of 40 finished, that had loss: 0.08695 (e^loss: 1.09084) and took: 125.356 . (batch size: 500 seqs, total len: 24512 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 10 of 40 finished, that had loss: 0.08514 (e^loss: 1.08887) and took: 98.868 . (batch size: 500 seqs, total len: 25684 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 11 of 40 finished, that had loss: 0.08678 (e^loss: 1.09066) and took: 92.38 . (batch size: 500 seqs, total len: 25042 )
+small sample (up to 50 tokens):
+ aaaabbbb
+☹☹ validation and train not improved here ☹☹
+time since start: 25499.787520053997
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 12 of 40 finished, that had loss: 0.08693 (e^loss: 1.09082) and took: 102.241 . (batch size: 500 seqs, total len: 24418 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 13 of 40 finished, that had loss: 0.08585 (e^loss: 1.08965) and took: 128.282 . (batch size: 500 seqs, total len: 24460 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 14 of 40 finished, that had loss: 0.08699 (e^loss: 1.09089) and took: 80.786 . (batch size: 500 seqs, total len: 23898 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 15 of 40 finished, that had loss: 0.08447 (e^loss: 1.08814) and took: 106.969 . (batch size: 500 seqs, total len: 24906 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 16 of 40 finished, that had loss: 0.08591 (e^loss: 1.0897) and took: 98.887 . (batch size: 500 seqs, total len: 24506 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 17 of 40 finished, that had loss: 0.08234 (e^loss: 1.08582) and took: 87.21 . (batch size: 500 seqs, total len: 25938 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 18 of 40 finished, that had loss: 0.08609 (e^loss: 1.0899) and took: 132.091 . (batch size: 500 seqs, total len: 24552 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 19 of 40 finished, that had loss: 0.08366 (e^loss: 1.08726) and took: 91.248 . (batch size: 500 seqs, total len: 25418 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 20 of 40 finished, that had loss: 0.08803 (e^loss: 1.09202) and took: 91.391 . (batch size: 500 seqs, total len: 23652 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 21 of 40 finished, that had loss: 0.07977 (e^loss: 1.08304) and took: 123.673 . (batch size: 500 seqs, total len: 26832 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+☆☆ reached new best validation & train loss: 0.08421104197690941 ☆☆ (e^loss= 1.0878584533832205 )
+time since start: 26580.93051838
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 22 of 40 finished, that had loss: 0.09058 (e^loss: 1.09481) and took: 98.824 . (batch size: 500 seqs, total len: 22730 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 23 of 40 finished, that had loss: 0.08608 (e^loss: 1.0899) and took: 111.794 . (batch size: 500 seqs, total len: 24254 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 24 of 40 finished, that had loss: 0.08183 (e^loss: 1.08528) and took: 106.561 . (batch size: 500 seqs, total len: 25942 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 25 of 40 finished, that had loss: 0.08453 (e^loss: 1.0882) and took: 100.383 . (batch size: 500 seqs, total len: 24848 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 26 of 40 finished, that had loss: 0.0826 (e^loss: 1.08611) and took: 104.168 . (batch size: 500 seqs, total len: 25742 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 27 of 40 finished, that had loss: 0.08516 (e^loss: 1.08889) and took: 92.894 . (batch size: 500 seqs, total len: 24618 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 28 of 40 finished, that had loss: 0.08238 (e^loss: 1.08587) and took: 96.852 . (batch size: 500 seqs, total len: 25740 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 29 of 40 finished, that had loss: 0.07971 (e^loss: 1.08297) and took: 130.281 . (batch size: 500 seqs, total len: 26918 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 30 of 40 finished, that had loss: 0.08553 (e^loss: 1.08929) and took: 88.04 . (batch size: 500 seqs, total len: 24434 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 31 of 40 finished, that had loss: 0.08479 (e^loss: 1.08848) and took: 92.29 . (batch size: 500 seqs, total len: 24692 )
+small sample (up to 50 tokens):
+ aaaaaaaaaaaaaabbbbbbbbbbbbbb
+☆☆ reached new best validation & train loss: 0.08405654809078231 ☆☆ (e^loss= 1.0876903988852316 )
+time since start: 27638.376559269
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 32 of 40 finished, that had loss: 0.08498 (e^loss: 1.0887) and took: 73.478 . (batch size: 500 seqs, total len: 24618 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 33 of 40 finished, that had loss: 0.07939 (e^loss: 1.08263) and took: 93.173 . (batch size: 500 seqs, total len: 26918 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 34 of 40 finished, that had loss: 0.08379 (e^loss: 1.0874) and took: 107.575 . (batch size: 500 seqs, total len: 25102 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 35 of 40 finished, that had loss: 0.0806 (e^loss: 1.08394) and took: 109.452 . (batch size: 500 seqs, total len: 26384 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 36 of 40 finished, that had loss: 0.08403 (e^loss: 1.08766) and took: 74.654 . (batch size: 500 seqs, total len: 24984 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 37 of 40 finished, that had loss: 0.08079 (e^loss: 1.08415) and took: 105.63 . (batch size: 500 seqs, total len: 26312 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 38 of 40 finished, that had loss: 0.08689 (e^loss: 1.09077) and took: 82.546 . (batch size: 500 seqs, total len: 23910 )
+lr 3 of 7 ( 0.001 ), iter. 1 of 3 , batch 39 of 40stopped by user - losses may be different than those last recorded
+☆☆ reached new best validation & train loss: 0.08400439566843372 ☆☆ (e^loss= 1.08763367467533 )
+time since start: 28451.379628134
+reached average training loss of: 0.08385747993077296
+and average validation loss of: 0.08400439566843372
+overall time spent training, including those dropped to validation: 28452.877083288
+total time training: 28454.447561704997
